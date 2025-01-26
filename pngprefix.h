@@ -4,6 +4,7 @@
 #define png_zstream_error wx_png_zstream_error
 #define png_free_buffer_list wx_png_free_buffer_list
 #define png_fixed wx_png_fixed
+#define png_fixed_ITU wx_png_fixed_ITU
 #define png_user_version_check wx_png_user_version_check
 #define png_malloc_base wx_png_malloc_base
 #define png_malloc_array wx_png_malloc_array
@@ -35,6 +36,8 @@
 #define png_write_sBIT wx_png_write_sBIT
 #define png_write_cHRM_fixed wx_png_write_cHRM_fixed
 #define png_write_cICP wx_png_write_cICP
+#define png_write_cLLI_fixed wx_png_write_cLLI_fixed
+#define png_write_mDCV_fixed wx_png_write_mDCV_fixed
 #define png_write_sRGB wx_png_write_sRGB
 #define png_write_eXIf wx_png_write_eXIf
 #define png_write_iCCP wx_png_write_iCCP
@@ -75,11 +78,13 @@
 #define png_handle_bKGD wx_png_handle_bKGD
 #define png_handle_cHRM wx_png_handle_cHRM
 #define png_handle_cICP wx_png_handle_cICP
+#define png_handle_cLLI wx_png_handle_cLLI
 #define png_handle_eXIf wx_png_handle_eXIf
 #define png_handle_gAMA wx_png_handle_gAMA
 #define png_handle_hIST wx_png_handle_hIST
 #define png_handle_iCCP wx_png_handle_iCCP
 #define png_handle_iTXt wx_png_handle_iTXt
+#define png_handle_mDCV wx_png_handle_mDCV
 #define png_handle_oFFs wx_png_handle_oFFs
 #define png_handle_pCAL wx_png_handle_pCAL
 #define png_handle_pHYs wx_png_handle_pHYs
